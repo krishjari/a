@@ -1,0 +1,28 @@
+Additional mobile-specific styles
+header nav ul {
+    display: none;
+    flex-direction: column;
+  }
+  
+  header .menu-icon {
+    display: block;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  header .menu-icon:before {
+    content: "\2630";
+  }
+  
+  header #menu-toggle:checked ~ nav ul {
+    display: flex;
+  }
+  
+  section#project .project-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
